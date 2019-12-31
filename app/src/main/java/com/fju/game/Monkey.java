@@ -15,6 +15,8 @@ public class Monkey extends Thread {
         this.gameView = gameView;
     }
 
+    //隨便加東西
+
     @Override
     public void run() {
         while(direction != DIRECTION_NONE) {
